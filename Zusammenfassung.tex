@@ -1,15 +1,21 @@
 % Document information
-\newcommand{\titleinfo}{Zusammenfassung Template}
-\newcommand{\authorinfo}{Name Nachname}
+\newcommand{\titleinfo}{Zusammenfassung ComEng2}
+\newcommand{\authorinfo}{Sandro Pedrett}
 \newcommand{\version}{1.0}
-\newcommand{\versioninfo}{FS21}
+\newcommand{\versioninfo}{HS21}
 % Header
 \include{Template/Header}
+
+% 2 A5 Seiten in QuickRef Kapitel notizen
 
 % Document
 \begin{document}
 
-\tableofcontents
-\input{Sections/First Section}
+\begin{center}
+	\includepdf[,pages=-10]{Images/CE2 Quick-Reference V2_4_custom.pdf}
+\end{center}
+\input{Sections/Einführung}
+\input{Sections/Cortex-M}
+\input{Sections/OSI}
 
 \end{document}
